@@ -168,6 +168,45 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * Adds one ball to Team-B numberOfBalls
+     * Calculates numberOfOvers from numberOfBalls
+     * @param view
+     */
+    public void addOneBallForTeamB(View view) {
+        if (numberOfBallsTeamB < 120 && wicketsTeamB < 10) {
+
+            numberOfBallsTeamB = numberOfBallsTeamB + 1;
+            numberOfOversTeamB =  ((numberOfBallsTeamB / 6) + (double)(numberOfBallsTeamB % 6) / 10);
+
+        } else {
+            numberOfOversTeamB = 0;
+            numberOfBallsTeamB = 0;
+            numberOfOversTeamB = 0;
+            wicketsTeamB = 0;
+        }
+        displayForTeamB(scoreTeamB, wicketsTeamB, numberOfOversTeamB);
+    }
+
+    /**
+     * Adds one wicket to Team-B wickets
+     * @param view
+     */
+    public void addOneWicketForTeamB(View view) {
+
+        if (numberOfBallsTeamB < 120 && wicketsTeamB < 10) {
+
+            wicketsTeamB = wicketsTeamB + 1;
+
+        } else {
+            numberOfOversTeamB = 0;
+            numberOfBallsTeamB = 0;
+            numberOfOversTeamB = 0;
+            wicketsTeamB = 0;
+        }
+        displayForTeamB(scoreTeamB, wicketsTeamB, numberOfOversTeamB);
+    }
+
+    /**
      * Displays the given score, wickets and overs for Team A.
      */
 

@@ -302,8 +302,8 @@
                 android:layout_marginRight="6dp"
                 android:layout_marginTop="12dp"
                 android:background="@color/lightskyblue"
+                android:onClick="addOneBallForTeamB"
                 android:text="@string/addNoOfBalls" />
-            <!--android:onClick="addOneBallForTeamB"-->
 
             <Button
                 android:layout_width="match_parent"
@@ -312,8 +312,8 @@
                 android:layout_marginRight="6dp"
                 android:layout_marginTop="14dp"
                 android:background="@color/crimson"
+                android:onClick="addOneWicketForTeamB"
                 android:text="@string/addWickets" />
-            <!--android:onClick="addOneWicketForTeamB"-->
 
         </LinearLayout>
 
