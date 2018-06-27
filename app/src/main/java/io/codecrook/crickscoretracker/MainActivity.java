@@ -233,4 +233,25 @@ public class MainActivity extends AppCompatActivity {
         wicketView.setText(String.valueOf(wickets));
         overView.setText(String.valueOf(overs));
     }
+
+    /**
+     * Reset the everything to zero
+     */
+
+    public void resetEverything(View view) {
+        scoreTeamA = 0;
+        scoreTeamB = 0;
+
+        numberOfBallsTeamA = 0;
+        numberOfBallsTeamB = 0;
+
+        numberOfOversTeamA = 0;
+        numberOfOversTeamB = 0;
+
+        wicketsTeamA = 0;
+        wicketsTeamB = 0;
+
+        displayForTeamA(scoreTeamA, wicketsTeamA, numberOfOversTeamA);
+        displayForTeamB(scoreTeamB, wicketsTeamB, numberOfOversTeamB);
+    }
 }
