@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">CrickScoreTracker</string>
+
+    <string name="FirstTeamName">TEAM A</string>
+    <string name="SecondTeamName">TEAM B</string>
+
+    <string name="total">TOTAL</string>
+
+    <string name="overs">Overs:</string>
+
+    <string name="initialVal">0</string>
+    <string name="divider">/</string>
+
+    <string name="addSix">+6</string>
+    <string name="addFour">+4</string>
+    <string name="addOne">+1</string>
+    <string name="addExtra">+EXTRA</string>
+    <string name="addWickets">+WICKETS</string>
+    <string name="addNoOfBalls">+NO OF BALLS</string>
+
+    <string name="finalResult">FINAL RESULT</string>
+    <string name="reset">RESET</string>
 </resources>
