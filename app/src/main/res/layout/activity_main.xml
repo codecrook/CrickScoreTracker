@@ -262,8 +262,8 @@
                     android:layout_marginLeft="6dp"
                     android:layout_weight="1"
                     android:background="@color/limegreen"
+                    android:onClick="addSixForTeamB"
                     android:text="@string/addSix" />
-                <!--android:onClick="addSixForTeamB"-->
 
                 <Button
                     android:layout_width="0dp"
@@ -272,8 +272,8 @@
                     android:layout_marginRight="6dp"
                     android:layout_weight="1"
                     android:background="@color/green"
+                    android:onClick="addFourForTeamB"
                     android:text="@string/addFour" />
-                <!--android:onClick="addFourForTeamB"-->
 
                 <Button
                     android:layout_width="0dp"
@@ -281,8 +281,8 @@
                     android:layout_marginRight="6dp"
                     android:layout_weight="1"
                     android:background="@color/lawngreen"
+                    android:onClick="addOneForTeamB"
                     android:text="@string/addOne" />
-                <!--android:onClick="addOneForTeamB"-->
             </LinearLayout>
 
             <Button

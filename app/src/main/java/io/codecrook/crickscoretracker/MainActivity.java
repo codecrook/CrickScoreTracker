@@ -113,6 +113,61 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * Adds one run to Team-B runs
+     * @param view
+     */
+    public void addOneForTeamB(View view) {
+
+        if (numberOfBallsTeamB < 120 && wicketsTeamB < 10) {
+
+            scoreTeamB = scoreTeamB + 1;
+
+        } else {
+            numberOfOversTeamB = 0;
+            numberOfBallsTeamB = 0;
+            numberOfOversTeamB = 0;
+            wicketsTeamB = 0;
+        }
+        displayForTeamB(scoreTeamB, wicketsTeamB, numberOfOversTeamB);
+    }
+
+    /**
+     * Adds four runs to Team-B runs
+     * @param view
+     */
+    public void addFourForTeamB(View view) {
+
+        if (numberOfBallsTeamB < 120 && wicketsTeamB < 10) {
+            scoreTeamB = scoreTeamB + 4;
+        } else {
+            numberOfOversTeamB = 0;
+            numberOfBallsTeamB = 0;
+            numberOfOversTeamB = 0;
+            wicketsTeamB = 0;
+        }
+        displayForTeamB(scoreTeamB, wicketsTeamB, numberOfOversTeamB);
+    }
+
+    /**
+     * Adds six runs to Team-B runs
+     * @param view
+     */
+    public void addSixForTeamB(View view) {
+
+        if (numberOfBallsTeamB < 120 && wicketsTeamB < 10) {
+
+            scoreTeamB = scoreTeamB + 6;
+
+        } else {
+            numberOfOversTeamB = 0;
+            numberOfBallsTeamB = 0;
+            numberOfOversTeamB = 0;
+            wicketsTeamB = 0;
+        }
+        displayForTeamB(scoreTeamB, wicketsTeamB, numberOfOversTeamB);
+    }
+
+    /**
      * Displays the given score, wickets and overs for Team A.
      */
 
