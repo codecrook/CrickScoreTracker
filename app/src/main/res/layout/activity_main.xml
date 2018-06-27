@@ -108,8 +108,8 @@
                     android:layout_marginLeft="6dp"
                     android:layout_weight="1"
                     android:background="@color/limegreen"
+                    android:onClick="addSixForTeamA"
                     android:text="@string/addSix" />
-                <!--android:onClick="addSixForTeamA"-->
 
                 <Button
                     android:layout_width="0dp"
@@ -118,8 +118,8 @@
                     android:layout_marginRight="6dp"
                     android:layout_weight="1"
                     android:background="@color/green"
+                    android:onClick="addFourForTeamA"
                     android:text="@string/addFour" />
-                <!--android:onClick="addFourForTeamA"-->
 
                 <Button
                     android:layout_width="0dp"
@@ -127,8 +127,8 @@
                     android:layout_marginRight="6dp"
                     android:layout_weight="1"
                     android:background="@color/lawngreen"
+                    android:onClick="addOneForTeamA"
                     android:text="@string/addOne" />
-                <!--android:onClick="addOneForTeamA"-->
             </LinearLayout>
 
             <Button
