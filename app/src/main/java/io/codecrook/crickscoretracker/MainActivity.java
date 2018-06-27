@@ -73,6 +73,46 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * Adds one ball to the Team-A played numberOfBalls
+     * Calculates over from numberOfBalls
+     * @param view
+     */
+    public void addOneBallForTeamA(View view) {
+
+        if (numberOfBallsTeamA < 120 && wicketsTeamA < 10) {
+
+            numberOfBallsTeamA = numberOfBallsTeamA + 1;
+            numberOfOversTeamA = ((numberOfBallsTeamA / 6) + (double)(numberOfBallsTeamA % 6) / 10);
+
+        } else {
+            numberOfOversTeamA = 0;
+            numberOfBallsTeamA = 0;
+            numberOfOversTeamA = 0;
+            wicketsTeamA = 0;
+        }
+        displayForTeamA(scoreTeamA, wicketsTeamA, numberOfOversTeamA);
+    }
+
+    /**
+     * Adds one wicket to Team-A wickets
+     * @param view
+     */
+    public void addOneWicketForTeamA(View view) {
+
+        if (numberOfBallsTeamA < 120 && wicketsTeamA < 10) {
+
+            wicketsTeamA = wicketsTeamA + 1;
+
+        } else {
+            numberOfOversTeamA = 0;
+            numberOfBallsTeamA = 0;
+            numberOfOversTeamA = 0;
+            wicketsTeamA = 0;
+        }
+        displayForTeamA(scoreTeamA, wicketsTeamA, numberOfOversTeamA);
+    }
+
+    /**
      * Displays the given score, wickets and overs for Team A.
      */
 
