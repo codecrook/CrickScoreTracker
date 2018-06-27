@@ -138,8 +138,8 @@
                 android:layout_marginRight="6dp"
                 android:layout_marginTop="10dp"
                 android:background="@color/deepskyblue"
+                android:onClick="addOneForTeamA"
                 android:text="@string/addExtra" />
-            <!--android:onClick="addOneForTeamA"-->
 
             <Button
                 android:layout_width="match_parent"
@@ -292,8 +292,8 @@
                 android:layout_marginRight="6dp"
                 android:layout_marginTop="10dp"
                 android:background="@color/deepskyblue"
+                android:onClick="addOneForTeamB"
                 android:text="@string/addExtra" />
-            <!--android:onClick="addOneForTeamB"-->
 
             <Button
                 android:layout_width="match_parent"
