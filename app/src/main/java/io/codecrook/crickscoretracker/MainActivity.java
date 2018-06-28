@@ -6,10 +6,14 @@ import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    int scoreTeamA = 0, scoreTeamB = 0;
-    int numberOfBallsTeamA = 0, numberOfBallsTeamB = 0;
-    int wicketsTeamA = 0, wicketsTeamB = 0;
-    double numberOfOversTeamA = 0.0, numberOfOversTeamB = 0.0;
+    int scoreTeamA = 0;
+    int scoreTeamB = 0;
+    int numberOfBallsTeamA = 0;
+    int numberOfBallsTeamB = 0;
+    int wicketsTeamA = 0;
+    int wicketsTeamB = 0;
+    double numberOfOversTeamA = 0.0;
+    double numberOfOversTeamB = 0.0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
